@@ -158,7 +158,7 @@ for stock in data:
     print()
     
 # Declare the file where you want the output to be stored here
-output_file = "DataOutput.xlsx"
+output_file = "output.xlsx"
 # Convert your data to a pandas Data Frame
 df = pd.DataFrame(data)
 # Write the Data to the output file
